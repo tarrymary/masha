@@ -606,3 +606,118 @@
 	width: 150px;
 	cursor: pointer;
 }
+
+
+
+.HC {
+	background-color: rgba(247, 167, 17, 0.75);
+	padding-top: 130px;
+}
+
+.HC__caption {
+	width: 500px;
+	margin: auto;
+}
+
+.HC__header {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Arial Black;
+	font-size: 19pt;
+	padding-bottom: 5px;
+}
+
+.HC__text {
+	color: #fff;
+	text-align: center;
+	font-family: Arial;
+	font-size: 11pt;
+}
+
+.HC__columns {
+	padding-top: 50px;
+}
+
+.HC__column {
+	height: 230px;
+	width: 465px;
+	background-color: #fff;
+	display: block;
+	float: left;
+	margin: 0 35px 20px 0;
+}
+
+.avatar {
+	width: 130px;
+	height: 130px;
+	background: url(1600.png) no-repeat;
+	position: relative;
+	background-size: 140px;
+	top: 40px;
+	left: 25px;
+}
+
+.HC__column__texts {
+	width: 65%;
+	float: right;
+	padding-top: 50px;
+}
+
+.HC__column__text {
+	color: #707070;
+	font-family: Arial;
+	font-size: 9pt;
+	line-height: 20px;
+}
+
+.HC__column__who-is-it {
+	padding-top: 30px;
+	width: 300px;
+	float: right;
+}
+
+.HC__c__w-i-i__text {
+	color: #909090;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.HC__column--name {
+	color: orange;
+}
+
+
+.section--map__caption {
+	width: 400px;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+.s--m__header {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial Black;
+	font-size: 19pt;
+	padding-bottom: 5px;
+}
+
+.s--m__text {
+	text-align: center;
+	color: #707070;
+	font-family: Arial;
+	font-size: 11pt;
+}
+
+.section--map__form {
+	margin: auto;
+}
+
+.s--m__input {
+	border: 1px solid black;
+	border-radius: 1px;
+	padding: 10px;
+	box-sizing: border-box;
+}
