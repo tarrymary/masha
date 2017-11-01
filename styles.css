@@ -713,11 +713,162 @@
 
 .section--map__form {
 	margin: auto;
+	width: 900px;
+	padding-bottom: 50px;
 }
 
 .s--m__input {
-	border: 1px solid black;
-	border-radius: 1px;
+	border: 1px solid #b7b7b7;
+	border-radius: 2px;
 	padding: 10px;
 	box-sizing: border-box;
+	margin-right: 5px;
+	color: #b7b7b7;
+}
+
+.s--m__i--name {
+	width:300px;
+}
+
+.s--m__i--email {
+	width: 350px;
+}
+
+.s--m__submit {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 10pt;
+	background-color: rgb(247, 167, 17);
+	border: 1px solid  rgb(247, 167, 17);
+	border-radius: 1px;
+	box-sizing: border-box;
+	padding:10px 15px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.section--map__bgimg {
+	width: 1000px;
+	height: 550px;
+	background: url(map.png) no-repeat;
+	position: relative;
+	background-size: 1000px;
+}
+
+.s--m__line {
+	width: 1000px;
+	background-color: #d0d0d0;
+	border:none;
+	height: 1px;
+}
+
+.s--m__circle {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #3a484f;
+	border-radius: 180px;
+	left: 360px;
+	top: 30px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.c__header {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 10pt;
+	padding-bottom: 10px;
+}
+
+.c__text{
+	color: #8698a0;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 9pt;
+	line-height: 25px;
+}
+
+.c__link {
+	color: rgb(247, 167, 17);
+	padding-left: 60px;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 9pt;
+}
+
+.s--m__triangle {
+	width:20px;
+	height:20px;
+	position: absolute;
+	background-color: #3a484f;
+	transform: rotate(50grad);
+	left:475px;
+	top:268px;
+}
+
+.s--m__logo {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	left:455px;
+	top:300px;
+}
+
+.s--m__menu {
+	padding-top: 20px;
+	margin: auto;
+	width:720px;
+}
+
+.s--m__menu__link {
+	text-decoration: none;
+	color:#000;
+	padding: 10px 15px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Helvetica;
+}
+
+.s--m__menu__link:hover {
+	background-color: #fb0;
+	color: #fff;
+}
+
+.s--m__phone {
+	width: 160px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.s--m__phone__text {
+	color: #000;
+	font-size: 15pt;
+	font-family: Helvetica;
+}
+
+.section__copyright {
+	background-color: rgba(102, 146, 227, 0.85);
+	height: 30px;
+	padding-top: 15px;
+}
+
+.s__c--copyright {
+	width: 300px;
+	margin: auto;
+}
+
+.s__c--copyright__text {
+	color: #fff;
+	text-align: center;
+	font-size: 10pt;
+	font-family: Helvetica;
 }
